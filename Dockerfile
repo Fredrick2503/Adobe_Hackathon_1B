@@ -27,7 +27,7 @@ COPY . .
 RUN pip install --no-cache-dir -r requirement.txt
 
 RUN mkdir models    
-COPY models_download.py .
+COPY model_download.py .
 
 # Run the script to download and save models
 RUN python download_models.py
