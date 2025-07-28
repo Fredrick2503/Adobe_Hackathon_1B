@@ -1,7 +1,7 @@
 
 
 
-FROM 1b:adobe
+FROM python:3.10-slim
  
 
 # Set environment variable to avoid prompts during package installation
@@ -26,7 +26,7 @@ COPY . .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirement.txt
 
-RUN mkdir models    || true 
+RUN mkdir models    
 COPY model_download.py .
 
 # Run the script to download and save models
