@@ -1,11 +1,10 @@
 import pandas as pd
 from sentence_transformers import SentenceTransformer, CrossEncoder, util
 import numpy as np
-
+import os
 class parseDoc:
-    bi_encoder = SentenceTransformer("multi-qa-MiniLM-L6-cos-v1")  # ~80MB, fast
-    cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")  # ~430MB, accurate
-
+    bi_encoder = SentenceTransformer(os.path.join("models","multi-qa-MiniLM-L6-cos-v1"))  # ~80MB, fast
+    cross_encoder = CrossEncoder(os.path.join("models","cross-encoder-ms-marco-MiniLM-L-6-v2")) 
     @staticmethod
     def build_header_sections(df):
         headers = [None]
