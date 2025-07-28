@@ -118,6 +118,6 @@ Modularity	Components for header extraction and ranking are decoupled
 Reusability	Models stored and reused via joblib
 Scalability	Can process multiple documents; suitable for batch runs
 Extensibility	Plug-and-play support for more advanced ranking or models
+## Conclusion
 
-Conclusion
 This summarization system leverages a blend of layout-aware classification and semantic similarity to extract and prioritize document sections relevant to a specific persona and task. It is designed for efficient research, content triage, and document intelligence use cases.
