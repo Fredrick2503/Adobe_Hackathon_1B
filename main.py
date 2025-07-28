@@ -4,9 +4,6 @@ from datetime import datetime
 import pandas as pd
 import json
 
-# ----------------------------
-# Parse Command Line Arguments
-# ----------------------------
 parser = argparse.ArgumentParser(description="Document summarizer for persona-based job queries.")
 parser.add_argument("--persona", required=True, help="Persona (e.g., 'PhD Researcher in Biology')")
 parser.add_argument("--query", required=True, help="Job to be done (e.g., 'Literature review on X')")
@@ -15,25 +12,16 @@ args = parser.parse_args()
 persona = args.persona
 query = args.query
 
-# ----------------------------
-# Load PDFs
-# ----------------------------
 print("Loading PDFs...")
 pdfdir = pathlib.Path("./PDFs")
 pdfs = [pdf for pdf in pdfdir.glob("*.pdf")]
 
-# ----------------------------
-# Import HeaderClassifier
-# ----------------------------
 from ExDoc.headerclassifier import HeaderClassifier
 Classfier = HeaderClassifier()
 
 final_extracted_section = pd.DataFrame()
 final_subsection = pd.DataFrame()
 
-# ----------------------------
-# Process Each PDF
-# ----------------------------
 for pdf in pdfs:
     data = Classfier.predict_headers(str(pdf))
     data['doc'] = pdf.name
@@ -59,9 +47,6 @@ for pdf in pdfs:
     final_extracted_section = pd.concat([final_extracted_section, extracted_section], ignore_index=True)
     final_subsection = pd.concat([final_subsection, subsection_analysis], ignore_index=True)
 
-# ----------------------------
-# Metadata & Output
-# ----------------------------
 metadata = {
     "input_documents": final_extracted_section['document'].unique().tolist(),
     "persona": persona,
