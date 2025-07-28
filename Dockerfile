@@ -1,4 +1,8 @@
+
+
+
 FROM python:3.10-slim
+ 
 
 # Set environment variable to avoid prompts during package installation
 ENV DEBIAN_FRONTEND=noninteractive
@@ -22,5 +26,7 @@ COPY . .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirement.txt
 
-# Run main.py
-CMD ["python", "main.py"]
+ENTRYPOINT ["python", "-m", "main"]
+
+# ✅ Default arguments (can be overridden)
+CMD ["--persona", "travel planner", "--query", "plan a four day trip"]

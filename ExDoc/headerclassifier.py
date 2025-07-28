@@ -153,7 +153,7 @@ class HeaderClassifier:
         df_new['font_name_encoded'] = self.font_encoder.transform(df_new['font_name_encoded'])
 
         X_new = df_new[self.feature_columns]
-        print("Analysising PDF layout")
+        print("Analyzing PDF layout")
         lgb_probs = self.model.predict_proba(X_new)
         meta_preds = self.meta_model.predict(lgb_probs)
         df_new['predicted_label'] = self.target_encoder.inverse_transform(meta_preds)
