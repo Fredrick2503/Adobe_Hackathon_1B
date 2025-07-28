@@ -6,6 +6,8 @@ This guide helps you build and run the project in an isolated Docker environment
 
 
 ```
-  docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier
-  docker run --rm -v $(pwd)/input:/app/input -v $(pwd)/output:/app/output --network none mysolutionname:somerandomidentifier
+
+  docker build --platform linux/amd64 -t mysolutionname:somerandomidentifier .
+  docker run --rm --platform linux/amd64 --network none -v ${PWD}:/app mysolutionname:somerandomidentifier python -m main --persona "travel planner" --query "plan a     four day trip"
+ 
 ``` 
