@@ -10,8 +10,8 @@
       "South of France - Traditions and Culture.pdf"
     ],
     "persona": "travel planner",
-    "job_to_be_done": "plan a four day trip",
-    "processing_timestamp": "2025-07-28T15:33:22.532115"
+    "job_to_be_done": "plan a 2 days trip",
+    "processing_timestamp": "2025-07-28T19:07:37.518762"
   },
   "extracted_sections": [
     {
@@ -47,7 +47,7 @@
     {
       "document": "South of France - Cities.pdf",
       "section_title": "Toulouse: The Pink City",
-      "importance_rank": 1,
+      "importance_rank": 0,
       "page_number": 8
     },
     {
@@ -137,7 +137,7 @@
     {
       "document": "South of France - History.pdf",
       "section_title": "Arles: A Roman Treasure",
-      "importance_rank": 1,
+      "importance_rank": 0,
       "page_number": 7
     },
     {
@@ -209,7 +209,7 @@
     {
       "document": "South of France - Restaurants and Hotels.pdf",
       "section_title": "Luxurious Restaurants",
-      "importance_rank": 0,
+      "importance_rank": 1,
       "page_number": 5
     },
     {
@@ -250,9 +250,9 @@
     },
     {
       "document": "South of France - Things to Do.pdf",
-      "section_title": "Festivals and Events",
+      "section_title": "Nightclubs",
       "importance_rank": 2,
-      "page_number": 5
+      "page_number": 10
     },
     {
       "document": "South of France - Things to Do.pdf",
@@ -262,27 +262,27 @@
     },
     {
       "document": "South of France - Things to Do.pdf",
-      "section_title": "Nightclubs",
-      "importance_rank": 2,
-      "page_number": 10
-    },
-    {
-      "document": "South of France - Things to Do.pdf",
       "section_title": "Historical Sites",
       "importance_rank": 2,
       "page_number": 2
     },
     {
       "document": "South of France - Things to Do.pdf",
-      "section_title": "Nightlife and Entertainment",
+      "section_title": "Festivals and Events",
       "importance_rank": 2,
-      "page_number": 10
+      "page_number": 5
     },
     {
       "document": "South of France - Things to Do.pdf",
       "section_title": "Water Sports",
       "importance_rank": 2,
       "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "section_title": "Nightlife and Entertainment",
+      "importance_rank": 1,
+      "page_number": 10
     },
     {
       "document": "South of France - Things to Do.pdf",
@@ -352,13 +352,13 @@
     },
     {
       "document": "South of France - Tips and Tricks.pdf",
-      "section_title": "Packing for All Seasons",
+      "section_title": "Winter (December to February)",
       "importance_rank": 0,
       "page_number": 2
     },
     {
       "document": "South of France - Tips and Tricks.pdf",
-      "section_title": "Winter (December to February)",
+      "section_title": "Packing for All Seasons",
       "importance_rank": 0,
       "page_number": 2
     },
@@ -395,7 +395,7 @@
     {
       "document": "South of France - Traditions and Culture.pdf",
       "section_title": "Jazz Manouche",
-      "importance_rank": 1,
+      "importance_rank": 2,
       "page_number": 4
     },
     {
@@ -418,15 +418,15 @@
     },
     {
       "document": "South of France - Traditions and Culture.pdf",
-      "section_title": "Festivals and Celebrations",
-      "importance_rank": 1,
-      "page_number": 1
-    },
-    {
-      "document": "South of France - Traditions and Culture.pdf",
       "section_title": "Lavender Products",
       "importance_rank": 1,
       "page_number": 3
+    },
+    {
+      "document": "South of France - Traditions and Culture.pdf",
+      "section_title": "Festivals and Celebrations",
+      "importance_rank": 1,
+      "page_number": 1
     },
     {
       "document": "South of France - Traditions and Culture.pdf",
@@ -645,8 +645,8 @@
     },
     {
       "document": "South of France - Things to Do.pdf",
-      "refined_text": "\u2022 Provence : Learn to prepare traditional dishes like ratatouille and bouillabaisse.\u2022 P\u00e9rigord : Join a tru\ufb04e hunting tour followed by a cooking class.\u2022 Nice : Take a class to master Ni\u00e7oise cuisine, including dishes like salade ni\u00e7oise and socca.\u2022 Toulouse : Learn to cook regional specialties such as cassoulet.\u2022 Marseille : Participate in a seafood cooking class to make dishes like bouillabaisse.\u2022 Lyon : Discover the secrets of Lyonnaise cuisine with a hands-on cooking class.\u2022 Sarlat : Join a foie gras workshop and learn to prepare this delicacy.",
-      "page_number": 5
+      "refined_text": "The South of France o\ufb00ers a vibrant nightlife scene, with options ranging from chic bars to lively nightclubs:\u2022 Monaco: Enjoy classic cocktails and live jazz at Le Bar Americain, located in the H\u00f4tel de Paris.\u2022 Nice: Try creative cocktails at Le Comptoir du March\u00e9, a trendy bar in the old town.\u2022 Cannes: Experience dining and entertainment at La Folie Douce, with live music, DJs, and performances.\u2022 Marseille: Visit Le Trolleybus, a popular bar with multiple rooms and music styles.\u2022 Saint-Tropez: Relax at Bar du Port, known for its chic atmosphere and waterfront views.\u2022 Montpellier: Enjoy craft cocktails at Papa Doble, a speakeasy-style bar.\u2022 Toulouse: Sip on cocktails at Fat Cat, a stylish bar with a vintage vibe.",
+      "page_number": 10
     },
     {
       "document": "South of France - Things to Do.pdf",
@@ -655,23 +655,23 @@
     },
     {
       "document": "South of France - Things to Do.pdf",
-      "refined_text": "The South of France o\ufb00ers a vibrant nightlife scene, with options ranging from chic bars to lively nightclubs:\u2022 Monaco: Enjoy classic cocktails and live jazz at Le Bar Americain, located in the H\u00f4tel de Paris.\u2022 Nice: Try creative cocktails at Le Comptoir du March\u00e9, a trendy bar in the old town.\u2022 Cannes: Experience dining and entertainment at La Folie Douce, with live music, DJs, and performances.\u2022 Marseille: Visit Le Trolleybus, a popular bar with multiple rooms and music styles.\u2022 Saint-Tropez: Relax at Bar du Port, known for its chic atmosphere and waterfront views.\u2022 Montpellier: Enjoy craft cocktails at Papa Doble, a speakeasy-style bar.\u2022 Toulouse: Sip on cocktails at Fat Cat, a stylish bar with a vintage vibe.",
-      "page_number": 10
-    },
-    {
-      "document": "South of France - Things to Do.pdf",
       "refined_text": "The South of France is rich in history and culture. Here are some activities to immerse yourself in the region's heritage:\u2022 Nice : Visit the Mus\u00e9e Matisse, dedicated to the works of Henri Matisse.\u2022 Antibes : Explore the Mus\u00e9e Picasso, housed in the Ch\u00e2teau Grimaldi.\u2022 Saint-Paul-de-Vence : Discover modern art at the Fondation Maeght.\u2022 Aix-en-Provence : Visit the Atelier C\u00e9zanne, the studio of the famous painter Paul C\u00e9zanne.\u2022 Arles : Explore the Fondation Vincent van Gogh, showcasing works inspired by the artist.\u2022 Marseille : Visit the MuCEM (Museum of European and Mediterranean Civilizations) for a deep dive into the region's history.\u2022 Toulouse : Discover the Mus\u00e9e des Augustins, a fine arts museum housed in a former convent.",
       "page_number": 2
     },
     {
       "document": "South of France - Things to Do.pdf",
-      "refined_text": "\u2022 Verdon Gorge: Take a family hike or rent paddle boats to explore the stunning Verdon Gorge.\u2022 Camargue Natural Park: Explore wetlands with wild horses and flamingos, and enjoy horseback riding, bird watching, and boat tours.\u2022 Various Locations: Try tree-top adventure parks with zip lines, rope bridges, and climbing challenges.\u2022 Gorges du Tarn: Go on a family-friendly hike and enjoy the scenic views.\u2022 Lake Annecy: Rent bikes and ride along the lake's picturesque bike paths.\u2022 Pyrenees: Take a cable car ride for stunning mountain views and easy hiking trails.\u2022 Dordogne: Explore the region's caves and prehistoric sites with guided tours suitable for children.\u2022 Toulouse: Visit Cit\u00e9 de l'Espace for a space-themed science museum with interactive exhibits, a planetarium, and a replica of the Mir space station.\u2022 Monaco: Explore the Mus\u00e9e Oc\u00e9anographique and its marine exhibits, including a shark lagoon and touch tanks.\u2022 Dordogne: See ancient cave paintings at prehistoric sites like Lascaux and Rou\ufb03gnac, and visit museums dedicated to prehistoric life.\u2022 Montpellier: Discover the Planet Ocean World, an aquarium and planetarium with interactive exhibits.\u2022 Carcassonne: Take a guided tour of the medieval citadel and learn about its history and architecture.\u2022 N\u00eemes: Visit the Roman amphitheater and learn about ancient Roman history.\u2022 Arles: Explore the Roman ruins and the Mus\u00e9e de l'Arles Antique, which showcases artifacts from the city's past.",
-      "page_number": 10
+      "refined_text": "\u2022 Provence : Learn to prepare traditional dishes like ratatouille and bouillabaisse.\u2022 P\u00e9rigord : Join a tru\ufb04e hunting tour followed by a cooking class.\u2022 Nice : Take a class to master Ni\u00e7oise cuisine, including dishes like salade ni\u00e7oise and socca.\u2022 Toulouse : Learn to cook regional specialties such as cassoulet.\u2022 Marseille : Participate in a seafood cooking class to make dishes like bouillabaisse.\u2022 Lyon : Discover the secrets of Lyonnaise cuisine with a hands-on cooking class.\u2022 Sarlat : Join a foie gras workshop and learn to prepare this delicacy.",
+      "page_number": 5
     },
     {
       "document": "South of France - Things to Do.pdf",
       "refined_text": "The South of France is renowned for its beautiful coastline along the Mediterranean Sea. Here are some activities to enjoy by the sea:\u2022 Nice : Visit the sandy shores and enjoy the vibrant Promenade des Anglais.\u2022 Antibes : Relax on the pebbled beaches and explore the charming old town.\u2022 Saint-Tropez : Experience the exclusive beach clubs and glamorous atmosphere.\u2022 Marseille to Cassis : Explore the stunning limestone cli\ufb00s and hidden coves of Calanques National Park.\u2022 \u00celes d'Hy\u00e8res : Discover pristine beaches and excellent snorkeling opportunities on islands like Porquerolles and Port-Cros.\u2022 Cannes : Enjoy the sandy beaches and luxury beach clubs along the Boulevard de la Croisette.\u2022 Menton : Visit the serene beaches and beautiful gardens in this charming town near the Italian border.",
       "page_number": 1
+    },
+    {
+      "document": "South of France - Things to Do.pdf",
+      "refined_text": "\u2022 Verdon Gorge: Take a family hike or rent paddle boats to explore the stunning Verdon Gorge.\u2022 Camargue Natural Park: Explore wetlands with wild horses and flamingos, and enjoy horseback riding, bird watching, and boat tours.\u2022 Various Locations: Try tree-top adventure parks with zip lines, rope bridges, and climbing challenges.\u2022 Gorges du Tarn: Go on a family-friendly hike and enjoy the scenic views.\u2022 Lake Annecy: Rent bikes and ride along the lake's picturesque bike paths.\u2022 Pyrenees: Take a cable car ride for stunning mountain views and easy hiking trails.\u2022 Dordogne: Explore the region's caves and prehistoric sites with guided tours suitable for children.\u2022 Toulouse: Visit Cit\u00e9 de l'Espace for a space-themed science museum with interactive exhibits, a planetarium, and a replica of the Mir space station.\u2022 Monaco: Explore the Mus\u00e9e Oc\u00e9anographique and its marine exhibits, including a shark lagoon and touch tanks.\u2022 Dordogne: See ancient cave paintings at prehistoric sites like Lascaux and Rou\ufb03gnac, and visit museums dedicated to prehistoric life.\u2022 Montpellier: Discover the Planet Ocean World, an aquarium and planetarium with interactive exhibits.\u2022 Carcassonne: Take a guided tour of the medieval citadel and learn about its history and architecture.\u2022 N\u00eemes: Visit the Roman amphitheater and learn about ancient Roman history.\u2022 Arles: Explore the Roman ruins and the Mus\u00e9e de l'Arles Antique, which showcases artifacts from the city's past.",
+      "page_number": 10
     },
     {
       "document": "South of France - Things to Do.pdf",
@@ -730,12 +730,12 @@
     },
     {
       "document": "South of France - Tips and Tricks.pdf",
-      "refined_text": "\u2022 Layering: The weather can vary, so pack layers to stay comfortable in di\ufb00erent temperatures.\u2022 Versatile Clothing: Choose items that can be mixed and matched to create multiple outfits, helping you pack lighter.\u2022 Packing Cubes: Use packing cubes to organize your clothes and maximize suitcase space.\u2022 Roll Your Clothes: Rolling clothes saves space and reduces wrinkles.\u2022 Travel-Sized Toiletries: Bring travel-sized toiletries to save space and comply with airline regulations.\u2022 Reusable Bags: Pack a few reusable bags for laundry, shoes, or shopping.\u2022 First Aid Kit: Include a small first aid kit with band-aids, antiseptic wipes, and any necessary medications.\u2022 Copies of Important Documents: Make copies of your passport, travel insurance, and other important documents. Keep them separate from the originals.\u2022 Portable Laundry Kit: A small laundry kit with detergent and a travel clothesline can be handy for longer trips.\u2022 Multi-Purpose Shoes: Choose shoes that are comfortable for walking but can also be worn to a nice dinner.\u2022 Travel Pillow and Blanket: A compact travel pillow and blanket can make long flights or train rides more comfortable.\u2022 Ziplock Bags: Use ziplock bags for liquids, snacks, or to keep items organized and protected from spills.\u2022 Emergency Contact List: Have a list of emergency contacts, including local embassy or consulate information.",
+      "refined_text": "\u2022 Clothing: Lightweight, breathable fabrics like cotton and linen. Pack t-shirts, shorts, sundresses, and swimwear.\u2022 Footwear: Sandals, flip-flops, and comfortable walking shoes.\u2022 Accessories: Sunglasses, a wide-brimmed hat, sunscreen, and a reusable water bottle.\u2022 Additional Tips: The South of France can get very hot in the summer, so stay hydrated and seek shade during peak sun hours. Pack a cooling towel to help manage the heat.\u2022 Clothing: Light sweaters, long-sleeve shirts, t-shirts, and a medium-weight jacket.\u2022 Footwear: Comfortable walking shoes and boots.\u2022 Accessories: Sunglasses, a scarf, and a small umbrella.\u2022 Additional Tips: Autumn is a great time to visit vineyards and enjoy the harvest season. Pack layers to adjust to varying temperatures throughout the day.",
       "page_number": 2
     },
     {
       "document": "South of France - Tips and Tricks.pdf",
-      "refined_text": "\u2022 Clothing: Lightweight, breathable fabrics like cotton and linen. Pack t-shirts, shorts, sundresses, and swimwear.\u2022 Footwear: Sandals, flip-flops, and comfortable walking shoes.\u2022 Accessories: Sunglasses, a wide-brimmed hat, sunscreen, and a reusable water bottle.\u2022 Additional Tips: The South of France can get very hot in the summer, so stay hydrated and seek shade during peak sun hours. Pack a cooling towel to help manage the heat.\u2022 Clothing: Light sweaters, long-sleeve shirts, t-shirts, and a medium-weight jacket.\u2022 Footwear: Comfortable walking shoes and boots.\u2022 Accessories: Sunglasses, a scarf, and a small umbrella.\u2022 Additional Tips: Autumn is a great time to visit vineyards and enjoy the harvest season. Pack layers to adjust to varying temperatures throughout the day.",
+      "refined_text": "\u2022 Layering: The weather can vary, so pack layers to stay comfortable in di\ufb00erent temperatures.\u2022 Versatile Clothing: Choose items that can be mixed and matched to create multiple outfits, helping you pack lighter.\u2022 Packing Cubes: Use packing cubes to organize your clothes and maximize suitcase space.\u2022 Roll Your Clothes: Rolling clothes saves space and reduces wrinkles.\u2022 Travel-Sized Toiletries: Bring travel-sized toiletries to save space and comply with airline regulations.\u2022 Reusable Bags: Pack a few reusable bags for laundry, shoes, or shopping.\u2022 First Aid Kit: Include a small first aid kit with band-aids, antiseptic wipes, and any necessary medications.\u2022 Copies of Important Documents: Make copies of your passport, travel insurance, and other important documents. Keep them separate from the originals.\u2022 Portable Laundry Kit: A small laundry kit with detergent and a travel clothesline can be handy for longer trips.\u2022 Multi-Purpose Shoes: Choose shoes that are comfortable for walking but can also be worn to a nice dinner.\u2022 Travel Pillow and Blanket: A compact travel pillow and blanket can make long flights or train rides more comfortable.\u2022 Ziplock Bags: Use ziplock bags for liquids, snacks, or to keep items organized and protected from spills.\u2022 Emergency Contact List: Have a list of emergency contacts, including local embassy or consulate information.",
       "page_number": 2
     },
     {
@@ -785,13 +785,13 @@
     },
     {
       "document": "South of France - Traditions and Culture.pdf",
-      "refined_text": "The South of France has inspired many writers and poets over the centuries. The troubadours of the medieval period, who composed and performed lyrical poetry, were particularly influential. Their works often celebrated chivalry, love, and nature. The region's literary heritage also includes famous authors like Marcel Pagnol, whose novels and plays vividly depict Proven\u00e7al life.",
-      "page_number": 1
+      "refined_text": "Tru\ufb04es, often referred to as \"black diamonds,\" are a prized delicacy in the South of France. The region's tru\ufb04e season, which runs from November to March, is marked by tru\ufb04e markets and festivals. Tru\ufb04e hunting, typically done with trained dogs or pigs, is a time-honored tradition. The town of Richerenches hosts a tru\ufb04e mass every January, where tru\ufb04es are blessed by the local priest.The South of France has a rich tradition of pottery and ceramics, with towns like Vallauris and Biot being renowned for their craftsmanship. Artisans create a wide range of items, from functional tableware to decorative pieces. The region's pottery often features vibrant colors and intricate designs, reflecting the local landscape and culture.",
+      "page_number": 3
     },
     {
       "document": "South of France - Traditions and Culture.pdf",
-      "refined_text": "Tru\ufb04es, often referred to as \"black diamonds,\" are a prized delicacy in the South of France. The region's tru\ufb04e season, which runs from November to March, is marked by tru\ufb04e markets and festivals. Tru\ufb04e hunting, typically done with trained dogs or pigs, is a time-honored tradition. The town of Richerenches hosts a tru\ufb04e mass every January, where tru\ufb04es are blessed by the local priest.The South of France has a rich tradition of pottery and ceramics, with towns like Vallauris and Biot being renowned for their craftsmanship. Artisans create a wide range of items, from functional tableware to decorative pieces. The region's pottery often features vibrant colors and intricate designs, reflecting the local landscape and culture.",
-      "page_number": 3
+      "refined_text": "The South of France has inspired many writers and poets over the centuries. The troubadours of the medieval period, who composed and performed lyrical poetry, were particularly influential. Their works often celebrated chivalry, love, and nature. The region's literary heritage also includes famous authors like Marcel Pagnol, whose novels and plays vividly depict Proven\u00e7al life.",
+      "page_number": 1
     },
     {
       "document": "South of France - Traditions and Culture.pdf",
