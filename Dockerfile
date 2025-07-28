@@ -26,6 +26,12 @@ COPY . .
 # Install Python dependencies
 RUN pip install --no-cache-dir -r requirement.txt
 
+RUN mkdir models    
+COPY download_models.py .
+
+# Run the script to download and save models
+RUN python download_models.py
+
 ENTRYPOINT ["python", "-m", "main"]
 
 # ✅ Default arguments (can be overridden)
