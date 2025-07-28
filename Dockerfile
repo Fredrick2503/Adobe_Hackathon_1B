@@ -30,7 +30,7 @@ RUN mkdir models
 COPY model_download.py .
 
 # Run the script to download and save models
-RUN python download_models.py
+RUN python model_download.py
 
 ENTRYPOINT ["python", "-m", "main"]
 
