@@ -28,7 +28,7 @@ for pdf in pdfs:
 
     from QDoc.parseDoc import parseDoc
     ranked_data = parseDoc.rank_headers_by_query_and_persona(data, query=query, persona=persona)
-
+    ranked_data = ranked_data[ranked_data["rank"]>0]
     extracted_section = ranked_data.loc[:, ['doc', 'text', 'rank', 'page']]
     extracted_section.rename(columns={
         "doc": "document",
